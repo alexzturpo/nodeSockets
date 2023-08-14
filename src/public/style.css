@@ -1,0 +1,45 @@
+*{
+    font-family: 'Raleway', sans-serif;font-family: 'Raleway', sans-serif;
+}
+#chat{
+    background-color: rgba(0, 134, 187, 0.3);
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.204);
+    margin: auto;
+    border-radius: 15px;
+}
+#all-messages{
+    height: 100%;
+    background-color: rgba(0, 105, 147, 0.301);
+    
+    border: 1px solid #ccc;
+    overflow: auto; 
+    padding: 2px 10px;
+    border-radius: 15px;
+    /* overflow-y: auto; */
+}
+#set_message{
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Divide en dos columnas, una para el input y otra para el textarea */
+    gap: 10px; /* Espacio entre los elementos */
+    /* width: 400px;  Ajusta el ancho según tus preferencias */
+}
+.chat-input {
+    grid-column: 1; /* Coloca el input en la primera columna */
+  }
+  
+  .chat-textarea {
+    grid-column: 2; /* Coloca el textarea en la segunda columna */
+  }
+.padding{
+    padding: .6rem;
+    border-radius:10px;
+    margin: 2px;
+    border: none;
+    background-color: #ffffff9e;
+}
